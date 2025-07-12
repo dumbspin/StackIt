@@ -1,0 +1,37 @@
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+background-color: #f5f5f5;
+}
+
+.card {
+background-color: white;
+padding: 2rem;
+border-radius: 12px;
+width: 100%;
+max-width: 400px;
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+display: flex;
+justify-content: center;
+margin-bottom: 1rem;
+}
+
+.tab {
+padding: 0.5rem 1rem;
+border: none;
+background: transparent;
+font-weight: bold;
+font-size: 1rem;
+cursor: pointer;
+color: #888;
+}
+
+.active {
+color: #232946;
+border-bottom: 2px solid #f6d365;
+}

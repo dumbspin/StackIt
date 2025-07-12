@@ -1,0 +1,85 @@
+.container {
+max-width: 900px;
+margin: 2rem auto;
+background: white;
+padding: 2rem;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.heading {
+font-size: 1.8rem;
+font-weight: bold;
+margin-bottom: 1.5rem;
+color: #232946;
+}
+
+.form {
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+.label {
+font-weight: 600;
+color: #444;
+}
+
+.input {
+padding: 0.75rem 1rem;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+width: 100%;
+}
+
+.editor {
+background: white;
+border-radius: 8px;
+}
+
+.tagInputWrapper {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.tagList {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+}
+
+.tag {
+background-color: #e6e6e6;
+border-radius: 20px;
+padding: 0.4rem 0.8rem;
+font-size: 0.85rem;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+
+.tag button {
+background: transparent;
+border: none;
+font-weight: bold;
+cursor: pointer;
+}
+
+.submitButton {
+background-color: #232946;
+color: white;
+padding: 0.75rem 1.5rem;
+font-size: 1rem;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.submitButton:hover {
+background-color: #f6d365;
+color: #000;
+transition: 0.2s ease;
+}

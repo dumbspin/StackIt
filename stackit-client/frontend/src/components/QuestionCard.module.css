@@ -1,0 +1,64 @@
+.card {
+display: flex;
+background: #fff;
+border-radius: 10px;
+padding: 1rem;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+gap: 1.25rem;
+}
+
+.meta {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: bold;
+min-width: 80px;
+font-size: 0.9rem;
+color: #444;
+}
+
+.content {
+flex: 1;
+}
+
+.title {
+font-size: 1.25rem;
+font-weight: bold;
+color: #232946;
+text-decoration: none;
+}
+
+.title:hover {
+color: #f6d365;
+}
+
+.excerpt {
+font-size: 0.95rem;
+color: #555;
+margin: 0.5rem 0;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.tags {
+display: flex;
+gap: 0.5rem;
+flex-wrap: wrap;
+}
+
+.tag {
+background-color: #e6e6e6;
+padding: 0.25rem 0.75rem;
+border-radius: 20px;
+font-size: 0.8rem;
+}
+
+.author {
+font-size: 0.85rem;
+color: #666;
+}

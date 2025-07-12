@@ -1,0 +1,49 @@
+.nav {
+background-color: #ffffff;
+padding: 1rem 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.logo {
+font-size: 1.75rem;
+font-weight: bold;
+color: #232946;
+text-decoration: none;
+}
+
+.highlight {
+color: #f6d365;
+}
+
+.links {
+display: flex;
+gap: 1.25rem;
+align-items: center;
+}
+
+.link {
+color: #232946;
+text-decoration: none;
+font-weight: 500;
+}
+
+.loginBtn {
+background-color: #232946;
+color: white;
+padding: 0.5rem 1rem;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.loginBtn:hover {
+background-color: #f6d365;
+color: #000;
+transition: 0.2s ease;
+}

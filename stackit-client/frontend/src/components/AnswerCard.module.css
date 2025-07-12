@@ -1,0 +1,49 @@
+.card {
+background-color: #f8f8f8;
+padding: 1rem;
+margin-bottom: 1rem;
+border-radius: 8px;
+}
+
+.votes {
+font-weight: bold;
+margin-bottom: 0.5rem;
+color: #444;
+}
+
+.body {
+font-size: 0.95rem;
+color: #333;
+margin-bottom: 0.75rem;
+}
+
+.meta {
+font-size: 0.85rem;
+color: #777;
+}
+
+.voteBox {
+float: left;
+margin-right: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.voteBtn {
+background: transparent;
+border: none;
+font-size: 1.1rem;
+cursor: pointer;
+color: #888;
+}
+
+.voteCount {
+font-weight: bold;
+margin: 0.25rem 0;
+color: #232946;
+}
+
+.active {
+color: #f6d365;
+}
